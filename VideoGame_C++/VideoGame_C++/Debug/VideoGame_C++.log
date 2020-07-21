@@ -1,2 +1,6 @@
-﻿  vg_tutorial_1.cpp
+﻿  IntArray.cpp
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(35,30): warning C4018: '<': signed/unsigned mismatch
+  vg_tutorial_1.cpp
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(43,9): warning C4101: 'v': unreferenced local variable
+  Generating Code...
   VideoGame_C++.vcxproj -> C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\Debug\VideoGame_C++.exe
