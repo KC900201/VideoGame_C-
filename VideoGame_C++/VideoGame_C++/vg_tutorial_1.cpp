@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "vertex.h"
 #include "IntArray.h"
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 /***
 Created on Sun July 19 2020
@@ -15,6 +19,7 @@ Date          Comment
 ========================
 07192020      First revision
 07212020	  Referencing; Constructors Destructors
+07252020	  Operator Overloading (Most important chapter and most difficult to understand); cout
 ***/
 
 // 07212020
@@ -35,9 +40,41 @@ void func(int *one) {
 void test() {
 	IntArray a(100), b(123);
 
-	IntArray c(a); // copy constructor
+//	IntArray c(a); // copy constructor, ugly
+	IntArray c = a; // copy constructor, more standardized writing
+
+	// 07252020
+	IntArray d(1);
+	d = b;
+	d = 5;
+	printf("Operator overloading 1\n", d.get(0));
+	printf("%d\n", d.get(0));
+
+	for (int i = 0; i < 100; i++) {
+		a.set(i, i * 2);
+	}
+
+	for (int i = 0; i < 400; i++) {
+		b.set(i, i * 4);
+	}
+
+	// + operator overloading - 07252020
+	IntArray e = a + b;
+	e[101] = 550;
+	printf("Operator overloading 2\n", d.get(0));
+//	printf("%d\n", e.get(101));
+	printf("%d\n", e[101]);
+
 }
 // End 07212020
+
+// run cout 
+void trycout() {
+	cout << "First sentence" << endl;
+	cout << "2nd sentence" << endl;
+	cout << 34543535 << endl;
+
+}
 
 int main() {
 	Vertex v;
@@ -45,7 +82,9 @@ int main() {
 //	Big j;
 //	j.x = 0;
 
-	test();
+//	test();
+
+	trycout();
 
 //	v.setToZero();
 //	v.set(9, 10, 12);
