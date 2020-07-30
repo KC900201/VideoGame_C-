@@ -3,5 +3,5 @@ C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tut
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(50,42): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(64,42): warning C4474: 'printf' : too many arguments passed for format string
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(64,42): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(80,9): warning C4101: 'v': unreferenced local variable
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(114,9): warning C4101: 'v': unreferenced local variable
   VideoGame_C++.vcxproj -> C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\Debug\VideoGame_C++.exe

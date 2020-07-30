@@ -1,3 +1,5 @@
+/* This is mostly created to lecture on function overloading in C++*/
+
 #include "IntArray.h"
 #include <stdio.h>
 #include <string.h>

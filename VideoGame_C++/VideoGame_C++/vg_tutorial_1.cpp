@@ -8,7 +8,6 @@ using namespace std;
 
 /***
 Created on Sun July 19 2020
-
 @author : KwongCheongNg
 @filename : vg_tutoial_1.cpp
 @coding : utf - 8
@@ -20,6 +19,7 @@ Date          Comment
 07192020      First revision
 07212020	  Referencing; Constructors Destructors
 07252020	  Operator Overloading (Most important chapter and most difficult to understand); cout
+07262020	  Conversion Operators (implicit conversion)
 ***/
 
 // 07212020
@@ -76,15 +76,57 @@ void trycout() {
 
 }
 
+// 07262020
+static int numberofAdd = 0;
+
+class EncapsulatedInt {
+
+public:
+	// default constructor
+	EncapsulatedInt() {
+
+	}
+
+	EncapsulatedInt(int someInt) {
+		i = someInt;
+	}
+
+	// operators
+	EncapsulatedInt operator +(const EncapsulatedInt &rhs) {
+		numberofAdd++;
+		return EncapsulatedInt(i + rhs.i);
+	}
+
+	// Implicit conversion
+	operator int() {
+		return i;
+	}
+
+private:
+	int i = 0;
+};
+
+void testImplicit(int i) {
+	cout << "value returns " << i << endl;
+}
+
 int main() {
 	Vertex v;
-	int i = 23;
 //	Big j;
 //	j.x = 0;
 
+// 07262020
+	EncapsulatedInt a, b(100);
+	auto c = a + b + a;
+	int i = c;
+
+	testImplicit(c);
+
+	cout << numberofAdd << endl;
+
 //	test();
 
-	trycout();
+//	trycout();
 
 //	v.setToZero();
 //	v.set(9, 10, 12);
