@@ -3,7 +3,7 @@
 Created on Sun July 19 2020
 
 @author : KwongCheongNg
-@filename : vg_tutoial_1.cpp
+@filename : IntArray.h
 @coding : utf - 8
 @description : C++ programming tutorial for learning Video Game programming
 @URL: https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq

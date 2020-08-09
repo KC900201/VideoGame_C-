@@ -13,13 +13,15 @@ IntArray::IntArray() {
 
 IntArray::IntArray(int n) {
 	size = n;
-	data = (int*)malloc(sizeof(int) * n); // points data to the memory allocation of integer n
+//	data = (int*)malloc(sizeof(int) * n); // points data to the memory allocation of integer n
+	data = new int[n]; // same as syntax above
 //	printf("New int array of size %d: Memory allocation %p\n", n, this);
 }
 
 IntArray::~IntArray() {
 //	printf("Deallocation of %p\n", this);
-	free(data);
+//	free(data);
+	delete data; // have to use delete when creating element using "new" syntax
 }
 
 void IntArray::set(int index, int value) {
@@ -50,11 +52,13 @@ IntArray::IntArray(const IntArray &arr) {
 
 // operator overloading
 void IntArray::operator =(const IntArray& arr) {
-	if(data)
-		free(data);
-
+	if (data)
+		delete data;
+//		free(data);
+	
 	size = arr.size;
-	data = (int*)malloc(sizeof(int) * size); // points data to the memory allocation of integer n
+//	data = (int*)malloc(sizeof(int) * size); // points data to the memory allocation of integer n
+	data = new int[size]; // points data to the memory allocation of integer n
 
 //	printf("assignment op from %p to %p\n", &arr, this);
 	memcpy(data, arr.data, sizeof(int) * size);

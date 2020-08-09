@@ -2,6 +2,7 @@
 #include "vertex.h"
 #include "IntArray.h"
 #include <string>
+#include <stdlib.h>
 #include <iostream>
 
 using namespace std;
@@ -20,7 +21,15 @@ Date          Comment
 07212020	  Referencing; Constructors Destructors
 07252020	  Operator Overloading (Most important chapter and most difficult to understand); cout
 07262020	  Conversion Operators (implicit conversion)
+08062020	  New & delete (memory alllocation)
+08092020	  Template (c++ syntax)
 ***/
+
+// 08092020
+template <typename NumberType>
+NumberType power2(NumberType i) {
+	return i * i;
+}
 
 // 07212020
 struct Big {
@@ -110,12 +119,44 @@ void testImplicit(int i) {
 	cout << "value returns " << i << endl;
 }
 
+// 08062020 memory allocation concept
+int tryMemAlloc() {
+	unsigned char *ptr = (unsigned char *)malloc(1024);
+	/* new and delete cmd as a new way of memory allocation */
+	ptr = new unsigned char[1024];
+
+	delete ptr;
+
+	return 0;
+}
+
+IntArray *createArray() {
+	IntArray a(100), b(200);
+
+	for (int i = 0; i < 50; i++) {
+		a.set(i, i * 2);
+	}
+
+	for (int i = 0; i < 50; i++) {
+		b.set(i, i * 4);
+	}
+
+	printf("Running create array\n");
+
+	IntArray *c = new IntArray(a + b); // copy constructor, using new to dynamic mem alloc cast
+//	c[30] = 51; // syntax will probably cause memory crash
+	c->set(30, 999); // set notation, set 30th index to 50, less likely to crash
+
+	return c;
+}
+
 int main() {
 	Vertex v;
 //	Big j;
 //	j.x = 0;
 
 // 07262020
+	/*
 	EncapsulatedInt a, b(100);
 	auto c = a + b + a;
 	int i = c;
@@ -123,6 +164,19 @@ int main() {
 	testImplicit(c);
 
 	cout << numberofAdd << endl;
+	*/
+
+// 08092020
+	cout << power2(2) << endl;
+	cout << power2(0.5f) << endl;
+//	cout << power2("lala") << endl;
+
+	// 08062020
+//	IntArray* result = createArray();
+
+//	cout << result->get(30) << endl;
+
+//	delete result; // de-allocate memory of result variable
 
 //	test();
 
