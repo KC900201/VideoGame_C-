@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "vertex.h"
 #include "IntArray.h"
+#include "Array.h"
 #include <string>
 #include <stdlib.h>
 #include <iostream>
@@ -31,6 +32,28 @@ NumberType power2(NumberType i) {
 	return i * i;
 }
 
+
+Array<float> *createArray() {
+	Array<float> a(100), b(200);
+
+	for (int i = 0; i < 50; i++) {
+		a.set(i, i * 2);
+	}
+
+	for (int i = 0; i < 50; i++) {
+		b.set(i, i * 4);
+	}
+
+	printf("Running create array\n");
+
+	Array<float> *c = new Array<float>(a + b); // copy constructor, using new to dynamic mem alloc cast
+//	c[30] = 51; // syntax will probably cause memory crash
+	c->set(30, 99.9f); // set notation, set 30th index to 50, less likely to crash
+
+	return c;
+
+}
+
 // 07212020
 struct Big {
 	int x, y, z;
@@ -46,6 +69,7 @@ void func(int *one) {
 	*one = 33; // dereferencing variable when accessing value
 }
 
+/*
 void test() {
 	IntArray a(100), b(123);
 
@@ -75,6 +99,7 @@ void test() {
 	printf("%d\n", e[101]);
 
 }
+*/
 // End 07212020
 
 // run cout 
@@ -129,7 +154,7 @@ int tryMemAlloc() {
 
 	return 0;
 }
-
+/*
 IntArray *createArray() {
 	IntArray a(100), b(200);
 
@@ -149,7 +174,7 @@ IntArray *createArray() {
 
 	return c;
 }
-
+*/
 int main() {
 	Vertex v;
 //	Big j;
@@ -167,10 +192,13 @@ int main() {
 	*/
 
 // 08092020
-	cout << power2(2) << endl;
-	cout << power2(0.5f) << endl;
-//	cout << power2("lala") << endl;
+//	cout << power2(2) << endl;
+//	cout << power2(0.5f) << endl;
+	Array<float> *result = createArray();
 
+	cout << result->get(30) << endl;
+	delete result;
+ 
 	// 08062020
 //	IntArray* result = createArray();
 

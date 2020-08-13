@@ -1,127 +1,19 @@
-﻿  IntArray.cpp
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(10,19): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(10,11): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(10,22): error C2509: '{ctor}': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(14,11): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(14,27): error C2509: '{ctor}': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(21,12): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(21,23): error C2509: '{dtor}': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(27,16): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(27,42): error C2509: 'set': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(33,15): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(33,30): error C2509: 'get': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(40,16): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(40,39): error C2509: 'safetyCheck': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(46,11): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(46,41): error C2509: '{ctor}': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(54,16): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(54,48): error C2509: '=': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(67,16): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(67,34): error C2509: '=': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(73,20): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(73,52): error C2509: '+': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(82,16): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.cpp(82,38): error C2509: '[]': member function not declared in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-  vg_tutorial_1.cpp
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(50,11): error C2955: 'IntArray': use of class template requires template argument list
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(50,17): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(50,25): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(53,16): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(56,15): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(57,7): error C2678: binary '=': no operator found which takes a left-hand operand of type 'IntArray' (or there is no acceptable conversion)
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(36,7): message : could be 'void IntArray<T>::operator =(int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(35,7): message : or       'void IntArray<T>::operator =(const IntArray<T> &)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(57,7): message : while trying to match the argument list '(IntArray, IntArray)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(57,7): error C2582: 'operator =' function is unavailable in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(58,7): error C2678: binary '=': no operator found which takes a left-hand operand of type 'IntArray' (or there is no acceptable conversion)
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(36,7): message : could be 'void IntArray<T>::operator =(int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(35,7): message : or       'void IntArray<T>::operator =(const IntArray<T> &)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(58,7): message : while trying to match the argument list '(IntArray, int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(58,7): error C2582: 'operator =' function is unavailable in 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(59,44): error C2662: 'int IntArray<T>::get(int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(59,44): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(59,37): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(33,6): message : see declaration of 'IntArray<T>::get'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(60,24): error C2662: 'int IntArray<T>::get(int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(60,24): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(60,17): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(33,6): message : see declaration of 'IntArray<T>::get'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(60,9): warning C4473: 'printf' : not enough arguments passed for format string
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(60,9): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(60,9): message : the missing variadic argument 1 is required by format string '%d'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(63,17): error C2662: 'void IntArray<T>::set(int,int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(63,17): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(63,3): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(34,7): message : see declaration of 'IntArray<T>::set'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(67,17): error C2662: 'void IntArray<T>::set(int,int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(67,17): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(67,3): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(34,7): message : see declaration of 'IntArray<T>::set'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(71,20): error C2678: binary '+': no operator found which takes a left-hand operand of type 'IntArray' (or there is no acceptable conversion)
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(38,11): message : could be 'IntArray<T> IntArray<T>::operator +(const IntArray<T> &)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(71,20): message : while trying to match the argument list '(IntArray, IntArray)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(71,13): error C2512: 'IntArray': no appropriate default constructor available
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22,1): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(72,7): error C2678: binary '[': no operator found which takes a left-hand operand of type 'IntArray' (or there is no acceptable conversion)
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(39,7): message : could be 'int &IntArray<T>::operator [](int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(72,7): message : while trying to match the argument list '(IntArray, int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(73,44): error C2662: 'int IntArray<T>::get(int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(73,44): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(73,37): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(33,6): message : see declaration of 'IntArray<T>::get'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(75,22): error C2678: binary '[': no operator found which takes a left-hand operand of type 'IntArray' (or there is no acceptable conversion)
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(39,7): message : could be 'int &IntArray<T>::operator [](int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(75,22): message : while trying to match the argument list '(IntArray, int)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(75,9): warning C4473: 'printf' : not enough arguments passed for format string
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(75,9): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(75,9): message : the missing variadic argument 1 is required by format string '%d'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(134,17): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(134,25): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(137,17): error C2662: 'void IntArray<T>::set(int,int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(137,17): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(137,3): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(34,7): message : see declaration of 'IntArray<T>::set'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(141,17): error C2662: 'void IntArray<T>::set(int,int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(141,17): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(141,3): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(34,7): message : see declaration of 'IntArray<T>::set'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(146,34): error C2678: binary '+': no operator found which takes a left-hand operand of type 'IntArray' (or there is no acceptable conversion)
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(38,11): message : could be 'IntArray<T> IntArray<T>::operator +(const IntArray<T> &)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(146,34): message : while trying to match the argument list '(IntArray, IntArray)'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(146,35): error C2514: 'IntArray': class template cannot be constructed
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(22): message : see declaration of 'IntArray'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(148,16): error C2662: 'void IntArray<T>::set(int,int)': cannot convert 'this' pointer from 'IntArray' to 'IntArray<T> &'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(148,16): message : Reason: cannot convert from 'IntArray' to 'IntArray<T>'
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(148,2): message : Conversion requires a second user-defined-conversion operator or constructor
-C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\IntArray.h(34,7): message : see declaration of 'IntArray<T>::set'
-  Generating Code...
+﻿  vg_tutorial_1.cpp
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(40,14): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(44,14): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(179,9): warning C4101: 'v': unreferenced local variable
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\ArrayImpl.h(49,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\ArrayImpl.h(48): message : while compiling class template member function 'bool Array<float>::safetyCheck(int)'
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\ArrayImpl.h(41): message : see reference to function template instantiation 'bool Array<float>::safetyCheck(int)' being compiled
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\ArrayImpl.h(18): message : while compiling class template member function 'Array<float>::Array(int)'
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(37): message : see reference to function template instantiation 'Array<float>::Array(int)' being compiled
+C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(37): message : see reference to class template instantiation 'Array<float>' being compiled
+  VideoGame_C++.vcxproj -> C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\Debug\VideoGame_C++.exe

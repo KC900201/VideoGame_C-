@@ -151,6 +151,8 @@
     <ClCompile Include="vg_tutorial_1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="ArrayImpl.h" />
     <ClInclude Include="IntArray.h" />
     <ClInclude Include="vertex.h" />
   </ItemGroup>
