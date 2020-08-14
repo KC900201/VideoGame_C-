@@ -5,6 +5,8 @@
 #include <string>
 #include <stdlib.h>
 #include <iostream>
+#include <vector>
+#include <list>
 
 using namespace std;
 
@@ -24,6 +26,7 @@ Date          Comment
 07262020	  Conversion Operators (implicit conversion)
 08062020	  New & delete (memory alllocation)
 08092020	  Template (c++ syntax)
+08142020	  Data Structures example (C++)
 ***/
 
 // 08092020
@@ -175,6 +178,34 @@ IntArray *createArray() {
 	return c;
 }
 */
+
+void testDataStruct() {
+//	vector<int> v;
+	list<int> v;
+
+	v.push_back(0);
+	v.push_back(2);
+	v.push_back(3);
+	v.push_back(4);
+	v.push_back(6);
+	v.push_front(10023);
+
+	printf("Printing iterator list \n");
+	/*
+	for (vector<int>::iterator it = v.begin(); it != v.end(); it++) {
+		cout << *it << endl;
+	}
+	*/
+
+	auto it = ++v.begin();
+	v.insert(it, 189);
+
+	for (auto &i : v) {
+		cout << i << endl;
+	}
+
+}
+
 int main() {
 	Vertex v;
 //	Big j;
@@ -191,13 +222,16 @@ int main() {
 	cout << numberofAdd << endl;
 	*/
 
+// 08142020
+	testDataStruct();
+
 // 08092020
 //	cout << power2(2) << endl;
 //	cout << power2(0.5f) << endl;
-	Array<float> *result = createArray();
+//	Array<float> *result = createArray();
 
-	cout << result->get(30) << endl;
-	delete result;
+//	cout << result->get(30) << endl;
+//	delete result;
  
 	// 08062020
 //	IntArray* result = createArray();
