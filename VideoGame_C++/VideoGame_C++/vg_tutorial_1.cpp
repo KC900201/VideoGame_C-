@@ -193,14 +193,14 @@ void testDataStruct() {
 	printf("Printing iterator list \n");
 	/*
 	for (vector<int>::iterator it = v.begin(); it != v.end(); it++) {
-		cout << *it << endl;
+		cout << *it << endl; // deferencing
 	}
 	*/
 
 	auto it = ++v.begin();
 	v.insert(it, 189);
 
-	for (auto &i : v) {
+	for (auto &i : v) { // use auto in complex type, iterate by referencing
 		cout << i << endl;
 	}
 

@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="IntArray.cpp" />
     <ClCompile Include="SDLExample.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="vertex.cpp" />
     <ClCompile Include="vg_tutorial_1.cpp" />
   </ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="ArrayImpl.h" />
     <ClInclude Include="IntArray.h" />
+    <ClInclude Include="TextureManager.h" />
     <ClInclude Include="vertex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

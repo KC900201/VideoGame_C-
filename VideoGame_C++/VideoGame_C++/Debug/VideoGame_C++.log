@@ -1,4 +1,5 @@
-﻿  vg_tutorial_1.cpp
+﻿  TextureManager.cpp
+  vg_tutorial_1.cpp
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(43,14): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
@@ -16,4 +17,5 @@ C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\ArrayI
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\ArrayImpl.h(18): message : while compiling class template member function 'Array<float>::Array(int)'
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(40): message : see reference to function template instantiation 'Array<float>::Array(int)' being compiled
 C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\VideoGame_C++\vg_tutorial_1.cpp(40): message : see reference to class template instantiation 'Array<float>' being compiled
+  Generating Code...
   VideoGame_C++.vcxproj -> C:\Users\user\Documents\Projects\VideoGame_C-\VideoGame_C++\Debug\VideoGame_C++.exe
