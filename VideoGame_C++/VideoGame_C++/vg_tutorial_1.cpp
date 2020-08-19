@@ -7,6 +7,7 @@
 #include <iostream>
 #include <vector>
 #include <list>
+#include <memory>
 
 using namespace std;
 
@@ -27,6 +28,7 @@ Date          Comment
 08062020	  New & delete (memory alllocation)
 08092020	  Template (c++ syntax)
 08142020	  Data Structures example (C++)
+08192020	  Smart Pointers in C++ (C++ 11 standard)
 ***/
 
 // 08092020
@@ -206,6 +208,30 @@ void testDataStruct() {
 
 }
 
+// 08192020
+class Banana {
+public:
+	typedef std::shared_ptr<Banana> Pointer;
+	typedef std::weak_ptr<Banana> WeakPointer;
+
+	~Banana()
+	{
+		std::cout << "Test Pointer!\n" << std::endl;
+	}
+
+private:
+};
+
+Banana::Pointer gBanana = nullptr;
+Banana::WeakPointer wBanana;
+
+static void testBanPointer(Banana::Pointer ban) {
+//	gBanana = ban;
+	wBanana = ban;
+
+	cout << "Weak Pointer Function\n" << endl;
+}
+
 int main() {
 	Vertex v;
 //	Big j;
@@ -223,7 +249,19 @@ int main() {
 	*/
 
 // 08142020
-	testDataStruct();
+//	testDataStruct();
+
+// 08192020
+	Banana::Pointer b = make_shared<Banana>();
+	testBanPointer(b);
+	b = nullptr;
+
+	if (gBanana) {
+		cout << "Lol!" << endl;
+	}
+	else if (wBanana.lock()) {
+		cout << "weak Lol!" << endl;
+	}
 
 // 08092020
 //	cout << power2(2) << endl;
