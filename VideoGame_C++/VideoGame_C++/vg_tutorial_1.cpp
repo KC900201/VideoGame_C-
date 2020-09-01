@@ -8,6 +8,9 @@
 #include <vector>
 #include <list>
 #include <memory>
+#include <functional> // 08202020
+#include <thread> // 08202020
+#include <atomic> // 08202020
 
 using namespace std;
 
@@ -29,6 +32,8 @@ Date          Comment
 08092020	  Template (c++ syntax)
 08142020	  Data Structures example (C++)
 08192020	  Smart Pointers in C++ (C++ 11 standard)
+08202020      Lambda Delegation (C++ 11 standard)
+			  Threads for Game Programming - Intro
 ***/
 
 // 08092020
@@ -36,7 +41,6 @@ template <typename NumberType>
 NumberType power2(NumberType i) {
 	return i * i;
 }
-
 
 Array<float> *createArray() {
 	Array<float> a(100), b(200);
@@ -208,6 +212,11 @@ void testDataStruct() {
 
 }
 
+// 08202020
+static void gLambdaFunc(function<void ()> aFunction) {
+	aFunction();
+}
+
 // 08192020
 class Banana {
 public:
@@ -217,6 +226,15 @@ public:
 	~Banana()
 	{
 		std::cout << "Test Pointer!\n" << std::endl;
+	}
+
+	// 08202020
+	void testLambdaDel() { // Lambda delegation function
+		auto x = 10; // Auto variable - infer variable type based on assigned value
+
+		auto func = []() {
+			cout << "Hellow Lambda" << endl;
+		};
 	}
 
 private:
